@@ -1,0 +1,29 @@
+:root{
+    --color-primary: #A53DFF;
+    --color-header: #132238;
+    --color-navbar-text:#333333;
+    --color-small-text:#556070;
+    --color-dark-small-text: #697484;
+    --color-whitesmoke:whitesmoke;
+    --color-card-text: #424E60;
+    --background-color:#F0F1F3;
+    --background-color-footer: #2B384C;
+    
+    --radius-btn:4px;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
