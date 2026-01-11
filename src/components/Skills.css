@@ -1,0 +1,76 @@
+.skills-section {
+    text-align: center;
+    background:
+        radial-gradient(circle at top left,
+            rgba(218, 77, 241, 0.25),
+            transparent 45%),
+        radial-gradient(circle at bottom left,
+            rgba(196, 245, 233, 0.5),
+            transparent 45%),
+        linear-gradient(to left,
+            white 55%,
+            #ffffff 100%);
+    padding: 60px 0 80px;
+}
+
+.skills-section .container h1{
+    font-weight: 700;
+    color: var(--color-header);
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 2fr .5fr .5fr;
+    margin-top: 40px;
+}
+
+.frontend>p,
+.database>p,
+.tools>p {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--color-header);
+    margin-bottom: 30px;
+}
+
+.box {
+    width: 120px;
+    margin: auto;
+    padding: 15px 0;
+    border-radius: var(--radius-btn);
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #EDD8FF;
+    box-shadow: 0 0 6px #808080a6;
+    transition: box-shadow 0.3s ease;
+}
+
+.box i {
+    font-size: 28px;
+    color: var(--color-header);
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.box:hover i {
+    animation: upDown .9s linear infinite;
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-6px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.boxFront {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px 0px;
+    padding: 0 40px;
+}
