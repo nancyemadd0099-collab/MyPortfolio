@@ -1,0 +1,21 @@
+.projects-section {
+    padding : 100px 0;
+    display: flex;
+    align-items: center;
+    background:
+        radial-gradient(circle at top left,
+            rgba(218, 77, 241, 0.25),
+            transparent 45%),
+        radial-gradient(circle at bottom left,
+            rgba(196, 245, 233, 0.5),
+            transparent 45%),
+        linear-gradient(to left,
+            white 55%,
+            #ffffff 100%);
+}
+
+.projects-section .container h1 {
+    text-align: center;
+    font-weight: 600;
+    color: var(--color-header);
+}

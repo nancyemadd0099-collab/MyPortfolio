@@ -7,7 +7,7 @@ function Navbar() {
             <nav>
                 <div className="container">
                     <div className="logo">
-                        <button>N</button>
+                        <p>N</p>
                         <h3>Nancy</h3>
                     </div>
                     <div className="btns">

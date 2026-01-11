@@ -4,6 +4,7 @@ import Aboutme from './components/Aboutme'
 import Home from './components/Home'
 import LetsProject from './components/LetsProject'
 import Navbar from './components/Navbar'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -11,8 +12,10 @@ function App() {
     <>
       <Navbar/>
       <Home />
-      <LetsProject/>
       <Aboutme />
+      <Projects />
+      <LetsProject />
+
     </>
   )
 }

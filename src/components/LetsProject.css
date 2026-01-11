@@ -1,0 +1,37 @@
+
+.letsProject-section{
+    height: 60vh;
+    background-color: #132238;
+    display: flex;
+    text-align: center;
+}
+.letsProject-section .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.letsProject-section .container h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+.letsProject-section .container p{
+    color: #A5ACB5;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.letsProject-section .container button{
+    background-color: var(--color-primary);
+    color: var(--color-whitesmoke);
+    border: none;
+    padding: 12px 24px;
+    border-radius: var(--radius-btn);
+    font-size: 16px;
+    font-weight: 600;
+}
+.letsProject-section .container button i{
+    margin-left: 12px;
+}
