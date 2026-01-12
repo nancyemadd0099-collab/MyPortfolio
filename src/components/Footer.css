@@ -1,0 +1,27 @@
+.footer-section{
+    background-color: var(--background-color-footer);
+    padding: 30px;
+}
+
+.footer-section .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section .container p{
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.links i{
+    font-size: 26px;
+    color: whitesmoke;
+}
+
