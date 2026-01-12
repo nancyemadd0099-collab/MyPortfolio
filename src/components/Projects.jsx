@@ -8,8 +8,10 @@ function Projects() {
         <>
             <section className='projects-section'>
                 <div className="container">
+                    <div className="header-project">
                         <h1>Projects</h1>
-                        <Cards />
+                    </div>
+                    <Cards />
                 </div>
             </section>
         </>
