@@ -1,6 +1,6 @@
 .skills-section {
     text-align: center;
-    background:
+    /* background:
         radial-gradient(circle at top left,
             rgba(218, 77, 241, 0.25),
             transparent 45%),
@@ -9,7 +9,8 @@
             transparent 45%),
         linear-gradient(to left,
             white 55%,
-            #ffffff 100%);
+            #ffffff 100%); */
+    background-color: var(--background-color-gray);
     padding: 80px 0 100px;
 }
 

@@ -2,7 +2,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: var(--background-color);
+    background-color: var(--background-color-gray);
 }
 
 .about-section .container{

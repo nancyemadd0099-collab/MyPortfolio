@@ -1,0 +1,103 @@
+.contact-section {
+    /* height: 100vh; */
+    padding: 50px 0;
+    background:
+        radial-gradient(circle at bottom left,
+            rgba(255, 234, 198, 0.427),
+            transparent 20%),
+        radial-gradient(circle at top right,
+            rgba(255, 234, 198, 0.427),
+            transparent 20%),
+        radial-gradient(circle at bottom right,
+            rgba(196, 245, 233, 0.5),
+            transparent 45%),
+        radial-gradient(circle at top left,
+            rgba(219, 77, 241, 0.107),
+            transparent 45%),
+        #fff;
+
+
+}
+
+.header-contact {
+    text-align: center;
+}
+
+.para-form h4 {
+    color: var(--color-header);
+}
+
+.para-form p{
+    color: var(--color-small-text);
+}
+
+.form-container {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 25px;
+    width: 60%;
+    padding: 40px;
+    border-radius: var(--radius-btn);
+    background-color: rgb(219 77 241 / 6%);
+    color: black;
+    box-shadow: 0 0 17px 5px #80808052;
+}
+
+input,
+textarea {
+    padding: 6px 14px;
+    border-radius: var(--radius-btn);
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.313);
+    background-color: var(--background-color-gray);
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.589);
+}
+
+textarea {
+    height: 20vh;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+.btn-submit{
+    padding: 10px;
+    border-radius: var(--radius-btn);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background-color: var(--background-color-box);
+    color: var(--color-header);
+}
+
+.btn-submit i,
+.para-form i{
+    margin-right: 6px;
+}
+
+.box-mail{
+    text-align: center;
+}
+
+.box-mail p{
+    font-size: 18px;
+    color: var(--color-small-text);
+    margin-bottom: 12px;
+}
+.box-mail a{
+    font-size: 20px;
+    color: var(--color-primary);
+}
+
