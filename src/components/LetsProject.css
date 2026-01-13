@@ -1,29 +1,32 @@
-
-.letsProject-section{
+#letsProject-section {
     height: 60vh;
     background-color: #132238;
     display: flex;
     text-align: center;
 }
-.letsProject-section .container{
+
+#letsProject-section .container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.letsProject-section .container h1{
+
+#letsProject-section .container h1 {
     font-size: 50px;
     font-weight: 700;
     color: white;
     margin: 0;
 }
-.letsProject-section .container p{
+
+#letsProject-section .container p {
     color: #A5ACB5;
     font-size: 18px;
     font-weight: 400;
     margin: 30px 0;
 }
-.letsProject-section .container button{
+
+#letsProject-section .container a {
     background-color: var(--color-primary);
     color: var(--color-whitesmoke);
     border: none;
@@ -31,7 +34,23 @@
     border-radius: var(--radius-btn);
     font-size: 16px;
     font-weight: 600;
+    transition: 0.5s ease;
 }
-.letsProject-section .container button i{
+
+#letsProject-section .container a:hover {
+    padding: 14px 26px;
+    font-size: 18px;
+}
+
+#letsProject-section .container div {
+    width: 500px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#letsProject-section .container a i {
     margin-left: 12px;
 }

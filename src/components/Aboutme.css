@@ -1,11 +1,11 @@
-.about-section{
+#about-section{
     height: 100vh;
     display: flex;
     align-items: center;
     background-color: var(--background-color-gray);
 }
 
-.about-section .container{
+#about-section .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -39,6 +39,11 @@
     border-radius: var(--radius-btn);
     background-color: white;
     box-shadow: 1px 2px 4px #80808059;
+        transition: 0.35s ease;
+}
+
+.cards-about div:hover{
+    box-shadow: 1px 2px 11px #5b5a5ad5;
 }
 
 .cards-about h4{

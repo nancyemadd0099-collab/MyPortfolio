@@ -26,7 +26,7 @@ function Contact() {
 
     return (
         <>
-            <section className='contact-section'>
+            <section id='contact-section'>
                 <div className="container">
                     <div className="header-contact">
                         <h1>Get In Touch</h1>
@@ -46,7 +46,7 @@ function Contact() {
 
                     <div className="box-mail">
                         <p>Or reach out directly via email:</p>
-                        <a href="#">nancyemadd009@gmail.com</a>
+                        <a href="mailto:nancyemadd009@gmail.com">nancyemadd009@gmail.com</a>
                     </div>
                 </div >
 

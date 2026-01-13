@@ -5,6 +5,13 @@
     display: flex;
     flex-direction: column;   
     padding-bottom: 18px ;
+    transition: 0.35s ease;
+    border: none;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 1px 2px 11px #5b5a5ad5;
 }
 
 .card-imge {
@@ -52,6 +59,13 @@
     border-radius: var(--radius-btn);
     font-size: 16px;
     font-weight: 600;
+    transition: 0.35s ease;
+}
+
+.demo:hover,
+.github:hover{
+        background-color: var(--color-primary);
+    color: whitesmoke;
 }
 
 .demo i,

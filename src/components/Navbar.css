@@ -50,10 +50,24 @@ nav .container {
     color: var(--color-header);
     font-size: 16px;
     font-weight: 500;
+    transition: color 0.35s ease;
+}
+
+.btns a:hover {
+    color: var(--color-primary);
+}
+
+.btns a.active {
+    color: var(--color-primary);
 }
 
 .btns a:nth-last-of-type(1) {
     background-color: var(--color-primary);
     border-radius: var(--radius-btn);
-    color: var(--color-whitesmoke);
+    color:white;
+    transition: 0.35s ease;
+}
+
+.btns a:nth-last-of-type(1):hover {
+    background-color: var(--color-primary-hover);
 }

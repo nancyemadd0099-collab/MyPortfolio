@@ -40,7 +40,7 @@ function Home() {
     }, [index, isDeleting, text]);
 
     return (
-        <section className="home-section">
+        <section id="home-section">
             <div className="container">
                 <div className="content-home">
                     <div className="content-box">
@@ -55,14 +55,19 @@ function Home() {
                     </div>
 
                     <div className="content-btns">
-                        <button>
+                        <button onClick={() => {
+                                    const link = document.createElement("a")
+                                    link.href = "/Nancy-Emad-Abdelrahiem-Frontend-C.pdf"
+                                    link.download = "Nancy-Emad-Abdelrahiem-Frontend-C.pdf"
+                                    link.click();
+                                }}>
                             <i className="fa-solid fa-download"></i> Download CV
                         </button>
                     </div>
                 </div>
 
                 <div className="imge">
-                    <img src="" alt="imge" />
+                    <img src="/me.png" alt="meImge" />
                 </div>
             </div>
         </section>

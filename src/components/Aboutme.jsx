@@ -5,7 +5,7 @@ function Aboutme() {
 
     return (
         <>
-            <section className='about-section'>
+            <section id='about-section'>
                 <div className="container">
                     <div className="content-about">
                         <h1>What I do?</h1>

@@ -1,5 +1,6 @@
 :root{
     --color-primary: #A53DFF;
+    --color-primary-hover: #831ae0;
     --color-header: #132238;
     --color-navbar-text:#333333;
     --color-small-text:#556070;
@@ -10,7 +11,7 @@
     --background-color-footer: #2B384C;
     --background-color-box:#EDD8FF;
 
-    --radius-btn:4px;
+    --radius-btn:10px;
 }
 
 body {
@@ -18,6 +19,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 a {
     all: unset;
