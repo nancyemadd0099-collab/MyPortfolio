@@ -50,7 +50,12 @@
     justify-content: center;
 }
 
-
 #letsProject-section .container a i {
     margin-left: 12px;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+    
 }

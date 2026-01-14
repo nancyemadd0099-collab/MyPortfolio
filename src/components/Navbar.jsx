@@ -5,6 +5,7 @@ import './Navbar.css'
 
 function Navbar() {
 
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false)
     const [activeSection, setActiveSection] = useState("home")
 
@@ -56,6 +57,23 @@ function Navbar() {
                         <a href="#skills-section" className={activeSection === "skills-section" ? "active" : ""}>Skills</a>
                         <a href="#contact-section" className={activeSection === "contact-section" ? "active" : ""}>Contact</a>
                     </div>
+
+
+                    {/* start menu */}
+                    <div
+                        className="menu-icon"
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    >
+                        <i className="fa-solid fa-sliders"></i>
+                    </div>
+                    <div className={`mobile-menu ${isMenuOpen ? 'show' : ''}`}>
+                        <a href="#hero-section" onClick={() => setIsMenuOpen(false)}>Home</a>
+                        <a href="#aboutme-section" onClick={() => setIsMenuOpen(false)}>About</a>
+                        <a href="#projects-section" onClick={() => setIsMenuOpen(false)}>Projects</a>
+                        <a href="#skills-section" onClick={() => setIsMenuOpen(false)}>Skills</a>
+                        <a href="#contact-section" onClick={() => setIsMenuOpen(false)}>Contact</a>
+                    </div>
+                    {/* end menu */}
                 </div>
             </nav>
         </>

@@ -15,12 +15,12 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <Aboutme />
+      {/* <Aboutme />
       <Projects />
       <LetsProject />
       <Skills />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }

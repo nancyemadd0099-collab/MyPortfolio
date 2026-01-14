@@ -129,3 +129,8 @@ background-color: #debefb;
     color: var(--color-primary-hover);
 }
 
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+    
+}
