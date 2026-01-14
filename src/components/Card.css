@@ -1,33 +1,33 @@
 .card {
-    width: 400px;            
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 400px;
+    border-radius: var(--radius-btn);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: column;   
-    padding-bottom: 18px ;
+    flex-direction: column;
+    padding-bottom: 18px;
     transition: 0.35s ease;
     border: none;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-8px);
     box-shadow: 1px 2px 11px #5b5a5ad5;
 }
 
 .card-imge {
-    flex: 1;               
+    flex: 1;
 }
 
 .card-imge img {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
-    border-top-left-radius: var(--radius-btn);      
-    border-top-right-radius: var(--radius-btn);      
+    object-fit: cover;
+    border-top-left-radius: var(--radius-btn);
+    border-top-right-radius: var(--radius-btn);
 }
 
 .about-card {
-    flex: 1;                   
+    flex: 1;
     display: grid;
     grid-template-rows: auto 1fr;
     padding: 10px 18px;
@@ -40,11 +40,11 @@
 }
 
 .card-details {
-    font-size:14px;
-    color: var( --color-small-text);
+    font-size: 14px;
+    color: var(--color-small-text);
 }
 
-.card-btns{
+.card-btns {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -52,7 +52,7 @@
 }
 
 .demo,
-.github{
+.github {
     padding: 5px 15px;
     border: 1px solid var(--color-primary);
     color: var(--color-primary);
@@ -63,20 +63,101 @@
 }
 
 .demo:hover,
-.github:hover{
-        background-color: var(--color-primary);
+.github:hover {
+    background-color: var(--color-primary);
     color: whitesmoke;
 }
 
 .demo i,
-.github i{
+.github i {
     margin-right: 5px;
 }
 
 /* ---------- Responsive ---------- */
 
-@media (max-width: 768px) {
-    
+/* Mobile phone */
+@media (max-width: 575px) {
+    .card {
+        width: 90%;
+        padding: 0px;
+    }
+
+    .about-card {
+        padding: 18px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-btns {
+        padding: 0 18px 20px;
+    }
+
+    .demo,
+    .github {
+        padding: 5px 18px;
+        font-size: 14px;
+    }
+
 }
 
+/* large mobile phone */
+@media (min-width: 576px) and (max-width: 767px) {
+    .card {
+        width: 90%;
+        padding: 0px;
+    }
 
+    .about-card {
+        padding: 18px;
+    }
+
+    .card-title {
+        font-size: 17px;
+    }
+
+    .card-btns {
+        padding: 0 18px 20px;
+    }
+
+    .demo,
+    .github {
+        padding: 5px 18px;
+        font-size: 15px;
+    }
+
+    .card-details {
+        font-size: 15px;
+    }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+        .card {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .about-card {
+        padding: 18px;
+    }
+
+    .card-title {
+        font-size: 17px;
+    }
+
+    .card-btns {
+        padding: 0 18px 20px;
+    }
+
+    .demo,
+    .github {
+        padding: 5px 18px;
+        font-size: 15px;
+    }
+
+    .card-details {
+        font-size: 15px;
+    }
+}
