@@ -56,6 +56,109 @@
 
 /* ---------- Responsive ---------- */
 
-@media (max-width: 768px) {
-    
+/* Mobile phone */
+@media (max-width: 575px) {
+    #letsProject-section {
+        height: 60vh;
+        display: flex;
+        text-align: center;
+    }
+
+    #letsProject-section .container h1 {
+        font-size: 32px;
+    }
+        #letsProject-section .container p {
+    font-size: 16px;
+}
+
+    #letsProject-section .container a {
+        font-size: 14px;
+    }
+
+    #letsProject-section .container a:hover {
+        padding: 14px 26px;
+        font-size: 18px;
+    }
+
+    #letsProject-section .container div {
+        width: 700px;
+    }
+
+    #letsProject-section .container a:hover {
+        padding: 12px 24px;
+        font-size: 16px;
+}
+
+}
+
+/* large mobile phone */
+@media (min-width: 576px) and (max-width: 767px) {
+    #letsProject-section {
+        height: 60vh;
+        display: flex;
+        text-align: center;
+    }
+
+    #letsProject-section .container h1 {
+        font-size: 32px;
+    }
+
+        #letsProject-section .container p {
+    font-size: 17px;
+}
+
+    #letsProject-section .container a {
+        font-size: 14px;
+    }
+
+    #letsProject-section .container a:hover {
+        padding: 14px 26px;
+        font-size: 18px;
+    }
+
+    #letsProject-section .container div {
+        width: 700px;
+    }
+
+    #letsProject-section .container a:hover {
+        padding: 12px 24px;
+        font-size: 16px;
+}
+
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    #letsProject-section {
+        height: 60vh;
+        display: flex;
+        text-align: center;
+    }
+
+    #letsProject-section .container h1 {
+        font-size: 36px;
+    }
+
+    #letsProject-section .container p {
+    font-size: 18px;
+}
+
+    #letsProject-section .container a {
+        font-size: 14px;
+    }
+
+    #letsProject-section .container a:hover {
+        padding: 14px 26px;
+        font-size: 18px;
+    }
+
+    #letsProject-section .container div {
+        width: 700px;
+    }
+
+    #letsProject-section .container a:hover {
+        padding: 12px 24px;
+        font-size: 16px;
+}
+
 }
