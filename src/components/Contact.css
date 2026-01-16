@@ -138,7 +138,7 @@ textarea:focus {
     }
 
     .para-form p {
-                font-size: 14px;
+        font-size: 14px;
     }
 
     .form-container {
@@ -154,7 +154,7 @@ textarea:focus {
         padding: 30px;
     }
 
-    ::placeholder{
+    ::placeholder {
         font-size: 14px;
     }
 
@@ -188,14 +188,14 @@ textarea:focus {
     }
 
     .para-form p {
-                font-size: 15px;
+        font-size: 15px;
     }
 
     form {
         width: 90%;
     }
 
-    ::placeholder{
+    ::placeholder {
         font-size: 15px;
     }
 
@@ -229,13 +229,14 @@ textarea:focus {
     }
 
     .para-form p {
-                font-size: 16px;
+        font-size: 16px;
     }
 
     form {
         width: 90%;
     }
-    ::placeholder{
+
+    ::placeholder {
         font-size: 15px;
     }
 

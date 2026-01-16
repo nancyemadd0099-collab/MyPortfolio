@@ -67,9 +67,10 @@
     #letsProject-section .container h1 {
         font-size: 32px;
     }
-        #letsProject-section .container p {
-    font-size: 16px;
-}
+
+    #letsProject-section .container p {
+        font-size: 16px;
+    }
 
     #letsProject-section .container a {
         font-size: 14px;
@@ -87,7 +88,7 @@
     #letsProject-section .container a:hover {
         padding: 12px 24px;
         font-size: 16px;
-}
+    }
 
 }
 
@@ -103,9 +104,9 @@
         font-size: 32px;
     }
 
-        #letsProject-section .container p {
-    font-size: 17px;
-}
+    #letsProject-section .container p {
+        font-size: 17px;
+    }
 
     #letsProject-section .container a {
         font-size: 14px;
@@ -123,7 +124,7 @@
     #letsProject-section .container a:hover {
         padding: 12px 24px;
         font-size: 16px;
-}
+    }
 
 }
 
@@ -140,8 +141,8 @@
     }
 
     #letsProject-section .container p {
-    font-size: 18px;
-}
+        font-size: 18px;
+    }
 
     #letsProject-section .container a {
         font-size: 14px;
@@ -159,6 +160,6 @@
     #letsProject-section .container a:hover {
         padding: 12px 24px;
         font-size: 16px;
-}
+    }
 
 }

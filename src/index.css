@@ -1,21 +1,20 @@
-:root{
+:root {
     --color-primary: #A53DFF;
     --color-primary-hover: #831ae0;
     --color-header: #132238;
-    --color-navbar-text:#333333;
-    --color-small-text:#556070;
+    --color-navbar-text: #333333;
+    --color-small-text: #556070;
     --color-dark-small-text: #697484;
-    --color-whitesmoke:whitesmoke;
+    --color-whitesmoke: whitesmoke;
     --color-card-text: #424E60;
-    --background-color-gray:#F0F1F3;
+    --background-color-gray: #F0F1F3;
     --background-color-footer: #2B384C;
-    --background-color-box:#EDD8FF;
+    --background-color-box: #EDD8FF;
 
-    --radius-btn:10px;
+    --radius-btn: 10px;
 }
 
 body {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -24,13 +23,22 @@ html {
     scroll-behavior: smooth;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+* {
+    box-sizing: border-box;
+}
 
 a {
     all: unset;
     cursor: pointer;
 }
 
-p{
+p {
     margin: 0;
     padding: 0;
 }
@@ -64,4 +72,3 @@ p{
     p  { font-size: 16px; }
     a, button, span { font-size: 16px; }
 } */
-

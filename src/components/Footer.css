@@ -1,31 +1,32 @@
-.footer-section{
+.footer-section {
     background-color: var(--background-color-footer);
     padding: 30px;
 }
 
-.footer-section .container{
+.footer-section .container {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-section .container p{
+.footer-section .container p {
     font-size: 18px;
     color: whitesmoke;
 }
 
-.links{
+.links {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 }
 
-.links i{
+.links i {
     font-size: 26px;
     color: whitesmoke;
     transition: 0.35s ease;
 }
-.links i:hover{
+
+.links i:hover {
     color: var(--color-primary);
 }
 
@@ -33,46 +34,45 @@
 
 /* Mobile phone */
 @media (max-width: 575px) {
-    .footer-section{
-    padding: 16px;
-}
+    .footer-section {
+        padding: 16px;
+    }
 
-.footer-section .container p{
-    font-size: 14px;
-}
+    .footer-section .container p {
+        font-size: 14px;
+    }
 
-.links i{
-    font-size: 18px;
-}
+    .links i {
+        font-size: 18px;
+    }
 }
 
 /* large mobile phone */
-@media (min-width: 576px) and (max-width: 767px){
-        .footer-section{
-    padding: 17px;
-}
+@media (min-width: 576px) and (max-width: 767px) {
+    .footer-section {
+        padding: 17px;
+    }
 
-.footer-section .container p{
-    font-size: 15px;
-}
+    .footer-section .container p {
+        font-size: 15px;
+    }
 
-.links i{
-    font-size: 18px;
-}
+    .links i {
+        font-size: 18px;
+    }
 }
 
 /* tablet */
-@media (min-width: 768px) and (max-width: 991px){
-        .footer-section{
-    padding: 18px;
-}
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer-section {
+        padding: 18px;
+    }
 
-.footer-section .container p{
-    font-size: 16px;
-}
+    .footer-section .container p {
+        font-size: 16px;
+    }
 
-
-.links i{
-    font-size: 20px;
-}
+    .links i {
+        font-size: 20px;
+    }
 }
