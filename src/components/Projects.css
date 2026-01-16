@@ -45,7 +45,7 @@
 /* Mobile phone */
 @media (max-width: 575px) {
     #projects-section {
-        padding: 60px 0;
+        padding: 80px 0;
     }
     .header-project h1 {
         font-size: 26px;
@@ -55,7 +55,7 @@
 /* large mobile phone */
 @media (min-width: 576px) and (max-width: 767px) {
     #projects-section {
-        padding: 60px 0;
+        padding: 80px 0;
     }
     .header-project h1 {
         font-size: 26px;

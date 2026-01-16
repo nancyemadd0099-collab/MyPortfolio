@@ -19,8 +19,8 @@ function App() {
       <Projects />
       <LetsProject />
       <Skills />
-      {/* <Contact /> */}
-      {/* <Footer /> */}
+      <Contact />
+      <Footer />
     </>
   )
 }

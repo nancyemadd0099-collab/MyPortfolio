@@ -99,7 +99,7 @@
 /* Mobile phone */
 @media (max-width: 575px) {
     #skills-section {
-        padding: 70px 0 80px;
+        padding: 80px 0;
     }
 
     #skills-section .container h1 {
@@ -145,7 +145,7 @@
 /* large mobile phone */
 @media (min-width: 576px) and (max-width: 767px) {
     #skills-section {
-        padding: 70px 0 80px;
+        padding: 80px 0;
     }
 
     #skills-section .container h1 {
@@ -191,7 +191,7 @@
 /* tablet */
 @media (min-width: 768px) and (max-width: 991px) {
     #skills-section {
-        padding: 70px 0 80px;
+        padding: 80px 0 ;
     }
 
     #skills-section .container h1 {

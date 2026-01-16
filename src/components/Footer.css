@@ -31,6 +31,48 @@
 
 /* ---------- Responsive ---------- */
 
-@media (max-width: 768px) {
-    
+/* Mobile phone */
+@media (max-width: 575px) {
+    .footer-section{
+    padding: 16px;
+}
+
+.footer-section .container p{
+    font-size: 14px;
+}
+
+.links i{
+    font-size: 18px;
+}
+}
+
+/* large mobile phone */
+@media (min-width: 576px) and (max-width: 767px){
+        .footer-section{
+    padding: 17px;
+}
+
+.footer-section .container p{
+    font-size: 15px;
+}
+
+.links i{
+    font-size: 18px;
+}
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px){
+        .footer-section{
+    padding: 18px;
+}
+
+.footer-section .container p{
+    font-size: 16px;
+}
+
+
+.links i{
+    font-size: 20px;
+}
 }

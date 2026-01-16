@@ -1,5 +1,5 @@
 #contact-section {
-    padding: 60px 0 60px;
+    padding: 60px 0;
     background:
         radial-gradient(circle at bottom left,
             rgba(255, 234, 198, 0.427),
@@ -20,25 +20,23 @@
     text-align: center;
 }
 
-.header-contact h1{
+.header-contact h1 {
     display: inline-block;
     position: relative;
     margin-bottom: 20px;
 }
 
-.header-contact h1::after{
+.header-contact h1::after {
     content: "";
     position: absolute;
     left: 0;
     bottom: -12px;
     width: 100%;
     height: 1.5px;
-    background: linear-gradient(
-        to right,
-        transparent,
-        var(--color-header),
-        transparent
-    );
+    background: linear-gradient(to right,
+            transparent,
+            var(--color-header),
+            transparent);
     border-radius: var(--radius-btn);
 }
 
@@ -46,7 +44,7 @@
     color: var(--color-header);
 }
 
-.para-form p{
+.para-form p {
     color: var(--color-small-text);
 }
 
@@ -92,7 +90,7 @@ textarea:focus {
     background-color: #e8e8eb;
 }
 
-.btn-submit{
+.btn-submit {
     padding: 10px;
     border-radius: var(--radius-btn);
     font-size: 16px;
@@ -103,34 +101,154 @@ textarea:focus {
     transition: 0.5s ease;
 }
 
-.btn-submit:hover{
-background-color: #debefb;
+.btn-submit:hover {
+    background-color: #debefb;
 }
 
 .btn-submit i,
-.para-form i{
+.para-form i {
     margin-right: 6px;
 }
 
-.box-mail{
+.box-mail {
     text-align: center;
 }
 
-.box-mail p{
+.box-mail p {
     font-size: 18px;
     color: var(--color-small-text);
     margin-bottom: 12px;
 }
-.box-mail a{
+
+.box-mail a {
     font-size: 20px;
     color: var(--color-primary);
 }
-.box-mail a:hover{
+
+.box-mail a:hover {
     color: var(--color-primary-hover);
 }
 
 /* ---------- Responsive ---------- */
 
-@media (max-width: 768px) {
-    
+/* Mobile phone */
+@media (max-width: 575px) {
+    #contact-section {
+        padding: 60px 0;
+    }
+
+    .para-form p {
+                font-size: 14px;
+    }
+
+    .form-container {
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    form {
+        gap: 20px;
+        width: 85%;
+        padding: 30px;
+    }
+
+    ::placeholder{
+        font-size: 14px;
+    }
+
+    input,
+    textarea {
+        padding: 6px 14px;
+    }
+
+    textarea {
+        height: 18vh;
+    }
+
+    .btn-submit {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .box-mail p {
+        font-size: 14px;
+    }
+
+    .box-mail a {
+        font-size: 15px;
+    }
+}
+
+/* large mobile phone */
+@media (min-width: 576px) and (max-width: 767px) {
+    #contact-section {
+        padding: 60px 0;
+    }
+
+    .para-form p {
+                font-size: 15px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    ::placeholder{
+        font-size: 15px;
+    }
+
+    input,
+    textarea {
+        padding: 6px 14px;
+    }
+
+    textarea {
+        height: 18vh;
+    }
+
+    .btn-submit {
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .box-mail p {
+        font-size: 15px;
+    }
+
+    .box-mail a {
+        font-size: 16px;
+    }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    #contact-section {
+        padding: 60px 0;
+    }
+
+    .para-form p {
+                font-size: 16px;
+    }
+
+    form {
+        width: 90%;
+    }
+    ::placeholder{
+        font-size: 15px;
+    }
+
+    .btn-submit {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .box-mail p {
+        font-size: 16px;
+    }
+
+    .box-mail a {
+        font-size: 18px;
+    }
 }
