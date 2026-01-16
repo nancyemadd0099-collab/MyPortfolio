@@ -45,6 +45,9 @@
     .links i {
         font-size: 18px;
     }
+    .links  {
+        gap: 18px;
+    }
 }
 
 /* large mobile phone */

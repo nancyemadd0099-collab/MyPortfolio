@@ -125,12 +125,13 @@
     }
 
     .box {
-        width: 90%;
-        font-size: 14px;
+        width: 50%;
+        font-size: 12px;
+        padding: 16px 0;
     }
 
     .box i {
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 5px;
     }
 
@@ -139,6 +140,10 @@
         gap: 16px;
         padding: 0;
         margin: 18px 0;
+        
+    }
+    .boxFront .box{
+width: 90%;
     }
 }
 
@@ -171,8 +176,11 @@
     }
 
     .box {
-        width: 90%;
+        width: 50%;
         font-size: 14px;
+    }
+        .boxFront .box{
+width: 90%;
     }
 
     .box i {

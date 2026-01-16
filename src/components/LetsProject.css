@@ -65,15 +65,16 @@
     }
 
     #letsProject-section .container h1 {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     #letsProject-section .container p {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     #letsProject-section .container a {
-        font-size: 14px;
+        font-size: 12px;
+            padding: 10px 24px;
     }
 
     #letsProject-section .container a:hover {

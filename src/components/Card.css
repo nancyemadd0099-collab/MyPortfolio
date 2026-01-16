@@ -78,7 +78,7 @@
 /* Mobile phone */
 @media (max-width: 575px) {
     .card {
-        width: 90%;
+        width: 85%;
         padding: 0px;
     }
 
@@ -87,7 +87,10 @@
     }
 
     .card-title {
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .card-details {
+        font-size: 12px;
     }
 
     .card-btns {
@@ -97,7 +100,7 @@
     .demo,
     .github {
         padding: 5px 18px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
 }
