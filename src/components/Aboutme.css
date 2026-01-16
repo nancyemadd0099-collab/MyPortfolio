@@ -53,14 +53,14 @@
 
 .cards-about p {
     color: var(--color-card-text);
-    font-size: 16px;
+    font-size: 16x;
 }
 
 /* ---------- Responsive ---------- */
 
 @media (max-width: 575px) {
     #about-section {
-        height: 95vh;
+        /* height: 95vh; */
     }
 
     #about-section .container {
