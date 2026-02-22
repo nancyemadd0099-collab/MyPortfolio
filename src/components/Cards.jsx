@@ -13,14 +13,22 @@ function Cards() {
             demo:'https://frontend-one-brown-46.vercel.app/',
             github:'https://github.com/ITI-our-team/frontend'
         },
-        {
+                {
             id: 2,
+            imge: '/MovieScope.png',
+            title: "Movie Scope",
+            details: "Modern movie streaming UI built with React with a focus on responsiveness and user experience.",
+            demo:'https://movie-scope-sand.vercel.app/',
+            github:'https://github.com/nancyemadd0099-collab/Movie-Scope'
+        },
+        {
+            id: 3,
             imge: '/resturant.png',
             title: "Bella Vista Restaurant",
             details: "Restaurant website showcasing menu, reservations, and special events for an elegant dining experience",
             demo:'https://bella-vista-restaurant-two.vercel.app/',
             github:'https://github.com/nancyemadd0099-collab/Bella_Vista_Restaurant'
-        }
+        },
     ]
     
     return (
