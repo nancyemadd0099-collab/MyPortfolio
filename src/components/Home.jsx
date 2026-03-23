@@ -57,8 +57,8 @@ function Home() {
                     <div className="content-btns">
                         <button onClick={() => {
                                     const link = document.createElement("a")
-                                    link.href = "/Nancy-Emad-Abdelrahiem-Frontend-C.pdf"
-                                    link.download = "Nancy-Emad-Abdelrahiem-Frontend-C.pdf"
+                                    link.href = "/Nancy_Emad_Abdelrahiem_Frontend.pdf"
+                                    link.download = "Nancy_Emad_Abdelrahiem_Frontend.pdf"
                                     link.click();
                                 }}>
                             <i className="fa-solid fa-download"></i> Download CV
